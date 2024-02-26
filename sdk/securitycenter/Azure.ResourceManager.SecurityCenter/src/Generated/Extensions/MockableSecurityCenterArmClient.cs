@@ -76,6 +76,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>ComplianceResults_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2017-08-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ComplianceResultResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -100,6 +108,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>ComplianceResults_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2017-08-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ComplianceResultResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -115,7 +131,7 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
 
         /// <summary> Gets an object representing a AdvancedThreatProtectionSettingResource along with the instance operations that can be performed on it in the ArmClient. </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
-        /// <returns> Returns a <see cref="AdvancedThreatProtectionSettingResource" /> object. </returns>
+        /// <returns> Returns a <see cref="AdvancedThreatProtectionSettingResource"/> object. </returns>
         public virtual AdvancedThreatProtectionSettingResource GetAdvancedThreatProtectionSetting(ResourceIdentifier scope)
         {
             return new AdvancedThreatProtectionSettingResource(Client, scope.AppendProviderResource("Microsoft.Security", "advancedThreatProtectionSettings", "current"));
@@ -140,6 +156,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>DeviceSecurityGroups_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2019-08-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="DeviceSecurityGroupResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -163,6 +187,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <item>
         /// <term>Operation Id</term>
         /// <description>DeviceSecurityGroups_Get</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2019-08-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="DeviceSecurityGroupResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -196,6 +228,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>Compliances_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2017-08-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SecurityComplianceResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -219,6 +259,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <item>
         /// <term>Operation Id</term>
         /// <description>Compliances_Get</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2017-08-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SecurityComplianceResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -252,6 +300,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>Assessments_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-06-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SecurityAssessmentResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -276,6 +332,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <item>
         /// <term>Operation Id</term>
         /// <description>Assessments_Get</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-06-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SecurityAssessmentResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -310,6 +374,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>GovernanceRules_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2022-01-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="GovernanceRuleResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -333,6 +405,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <item>
         /// <term>Operation Id</term>
         /// <description>GovernanceRules_Get</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2022-01-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="GovernanceRuleResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -366,6 +446,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>SqlVulnerabilityAssessmentScans_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2023-02-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SqlVulnerabilityAssessmentScanResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -390,6 +478,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <item>
         /// <term>Operation Id</term>
         /// <description>SqlVulnerabilityAssessmentScans_Get</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2023-02-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SqlVulnerabilityAssessmentScanResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -424,6 +520,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>SqlVulnerabilityAssessmentBaselineRules_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2023-02-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SqlVulnerabilityAssessmentBaselineRuleResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -449,6 +553,14 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>SqlVulnerabilityAssessmentBaselineRules_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2023-02-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SqlVulnerabilityAssessmentBaselineRuleResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -473,6 +585,10 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <item>
         /// <term>Operation Id</term>
         /// <description>InformationProtectionPolicies_CreateOrUpdate</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2017-08-01-preview</description>
         /// </item>
         /// </list>
         /// </summary>
@@ -511,6 +627,10 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>InformationProtectionPolicies_CreateOrUpdate</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2017-08-01-preview</description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
@@ -548,12 +668,16 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>InformationProtectionPolicies_List</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2017-08-01-preview</description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="scope"/> is null. </exception>
-        /// <returns> An async collection of <see cref="InformationProtectionPolicy" /> that may take multiple service requests to iterate over. </returns>
+        /// <returns> An async collection of <see cref="InformationProtectionPolicy"/> that may take multiple service requests to iterate over. </returns>
         public virtual AsyncPageable<InformationProtectionPolicy> GetInformationProtectionPoliciesAsync(ResourceIdentifier scope, CancellationToken cancellationToken = default)
         {
             Argument.AssertNotNull(scope, nameof(scope));
@@ -574,12 +698,16 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>InformationProtectionPolicies_List</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2017-08-01-preview</description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="scope"/> is null. </exception>
-        /// <returns> A collection of <see cref="InformationProtectionPolicy" /> that may take multiple service requests to iterate over. </returns>
+        /// <returns> A collection of <see cref="InformationProtectionPolicy"/> that may take multiple service requests to iterate over. </returns>
         public virtual Pageable<InformationProtectionPolicy> GetInformationProtectionPolicies(ResourceIdentifier scope, CancellationToken cancellationToken = default)
         {
             Argument.AssertNotNull(scope, nameof(scope));
@@ -600,12 +728,20 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>SubAssessments_ListAll</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2019-01-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SecuritySubAssessmentResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="scope"/> is null. </exception>
-        /// <returns> An async collection of <see cref="SecuritySubAssessmentResource" /> that may take multiple service requests to iterate over. </returns>
+        /// <returns> An async collection of <see cref="SecuritySubAssessmentResource"/> that may take multiple service requests to iterate over. </returns>
         public virtual AsyncPageable<SecuritySubAssessmentResource> GetSecuritySubAssessmentsAsync(ResourceIdentifier scope, CancellationToken cancellationToken = default)
         {
             Argument.AssertNotNull(scope, nameof(scope));
@@ -626,12 +762,20 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>SubAssessments_ListAll</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2019-01-01-preview</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SecuritySubAssessmentResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="scope"/> is null. </exception>
-        /// <returns> A collection of <see cref="SecuritySubAssessmentResource" /> that may take multiple service requests to iterate over. </returns>
+        /// <returns> A collection of <see cref="SecuritySubAssessmentResource"/> that may take multiple service requests to iterate over. </returns>
         public virtual Pageable<SecuritySubAssessmentResource> GetSecuritySubAssessments(ResourceIdentifier scope, CancellationToken cancellationToken = default)
         {
             Argument.AssertNotNull(scope, nameof(scope));
@@ -652,12 +796,20 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>Assessments_List</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-06-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SecurityAssessmentResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="scope"/> is null. </exception>
-        /// <returns> An async collection of <see cref="SecurityAssessmentResource" /> that may take multiple service requests to iterate over. </returns>
+        /// <returns> An async collection of <see cref="SecurityAssessmentResource"/> that may take multiple service requests to iterate over. </returns>
         public virtual AsyncPageable<SecurityAssessmentResource> GetSecurityAssessmentsAsync(ResourceIdentifier scope, CancellationToken cancellationToken = default)
         {
             Argument.AssertNotNull(scope, nameof(scope));
@@ -678,12 +830,20 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         /// <term>Operation Id</term>
         /// <description>Assessments_List</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-06-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="SecurityAssessmentResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="scope"> The scope that the resource will apply against. </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
         /// <exception cref="ArgumentNullException"> <paramref name="scope"/> is null. </exception>
-        /// <returns> A collection of <see cref="SecurityAssessmentResource" /> that may take multiple service requests to iterate over. </returns>
+        /// <returns> A collection of <see cref="SecurityAssessmentResource"/> that may take multiple service requests to iterate over. </returns>
         public virtual Pageable<SecurityAssessmentResource> GetSecurityAssessments(ResourceIdentifier scope, CancellationToken cancellationToken = default)
         {
             Argument.AssertNotNull(scope, nameof(scope));
@@ -693,11 +853,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
             return GeneratorPageableHelpers.CreatePageable(FirstPageRequest, NextPageRequest, e => new SecurityAssessmentResource(Client, SecurityAssessmentData.DeserializeSecurityAssessmentData(e)), SecurityAssessmentAssessmentsClientDiagnostics, Pipeline, "MockableSecurityCenterArmClient.GetSecurityAssessments", "value", "nextLink", cancellationToken);
         }
         /// <summary>
-        /// Gets an object representing a <see cref="CustomAssessmentAutomationResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="CustomAssessmentAutomationResource.CreateResourceIdentifier" /> to create a <see cref="CustomAssessmentAutomationResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="CustomAssessmentAutomationResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="CustomAssessmentAutomationResource.CreateResourceIdentifier" /> to create a <see cref="CustomAssessmentAutomationResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="CustomAssessmentAutomationResource" /> object. </returns>
+        /// <returns> Returns a <see cref="CustomAssessmentAutomationResource"/> object. </returns>
         public virtual CustomAssessmentAutomationResource GetCustomAssessmentAutomationResource(ResourceIdentifier id)
         {
             CustomAssessmentAutomationResource.ValidateResourceId(id);
@@ -705,11 +865,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="CustomEntityStoreAssignmentResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="CustomEntityStoreAssignmentResource.CreateResourceIdentifier" /> to create a <see cref="CustomEntityStoreAssignmentResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="CustomEntityStoreAssignmentResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="CustomEntityStoreAssignmentResource.CreateResourceIdentifier" /> to create a <see cref="CustomEntityStoreAssignmentResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="CustomEntityStoreAssignmentResource" /> object. </returns>
+        /// <returns> Returns a <see cref="CustomEntityStoreAssignmentResource"/> object. </returns>
         public virtual CustomEntityStoreAssignmentResource GetCustomEntityStoreAssignmentResource(ResourceIdentifier id)
         {
             CustomEntityStoreAssignmentResource.ValidateResourceId(id);
@@ -717,11 +877,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="ComplianceResultResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="ComplianceResultResource.CreateResourceIdentifier" /> to create a <see cref="ComplianceResultResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="ComplianceResultResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="ComplianceResultResource.CreateResourceIdentifier" /> to create a <see cref="ComplianceResultResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="ComplianceResultResource" /> object. </returns>
+        /// <returns> Returns a <see cref="ComplianceResultResource"/> object. </returns>
         public virtual ComplianceResultResource GetComplianceResultResource(ResourceIdentifier id)
         {
             ComplianceResultResource.ValidateResourceId(id);
@@ -729,11 +889,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityCenterPricingResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityCenterPricingResource.CreateResourceIdentifier" /> to create a <see cref="SecurityCenterPricingResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityCenterPricingResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityCenterPricingResource.CreateResourceIdentifier" /> to create a <see cref="SecurityCenterPricingResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityCenterPricingResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityCenterPricingResource"/> object. </returns>
         public virtual SecurityCenterPricingResource GetSecurityCenterPricingResource(ResourceIdentifier id)
         {
             SecurityCenterPricingResource.ValidateResourceId(id);
@@ -741,11 +901,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing an <see cref="AdvancedThreatProtectionSettingResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="AdvancedThreatProtectionSettingResource.CreateResourceIdentifier" /> to create an <see cref="AdvancedThreatProtectionSettingResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing an <see cref="AdvancedThreatProtectionSettingResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="AdvancedThreatProtectionSettingResource.CreateResourceIdentifier" /> to create an <see cref="AdvancedThreatProtectionSettingResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="AdvancedThreatProtectionSettingResource" /> object. </returns>
+        /// <returns> Returns a <see cref="AdvancedThreatProtectionSettingResource"/> object. </returns>
         public virtual AdvancedThreatProtectionSettingResource GetAdvancedThreatProtectionSettingResource(ResourceIdentifier id)
         {
             AdvancedThreatProtectionSettingResource.ValidateResourceId(id);
@@ -753,11 +913,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="DeviceSecurityGroupResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="DeviceSecurityGroupResource.CreateResourceIdentifier" /> to create a <see cref="DeviceSecurityGroupResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="DeviceSecurityGroupResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="DeviceSecurityGroupResource.CreateResourceIdentifier" /> to create a <see cref="DeviceSecurityGroupResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="DeviceSecurityGroupResource" /> object. </returns>
+        /// <returns> Returns a <see cref="DeviceSecurityGroupResource"/> object. </returns>
         public virtual DeviceSecurityGroupResource GetDeviceSecurityGroupResource(ResourceIdentifier id)
         {
             DeviceSecurityGroupResource.ValidateResourceId(id);
@@ -765,11 +925,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing an <see cref="IotSecuritySolutionResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="IotSecuritySolutionResource.CreateResourceIdentifier" /> to create an <see cref="IotSecuritySolutionResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing an <see cref="IotSecuritySolutionResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="IotSecuritySolutionResource.CreateResourceIdentifier" /> to create an <see cref="IotSecuritySolutionResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="IotSecuritySolutionResource" /> object. </returns>
+        /// <returns> Returns a <see cref="IotSecuritySolutionResource"/> object. </returns>
         public virtual IotSecuritySolutionResource GetIotSecuritySolutionResource(ResourceIdentifier id)
         {
             IotSecuritySolutionResource.ValidateResourceId(id);
@@ -777,11 +937,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing an <see cref="IotSecuritySolutionAnalyticsModelResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="IotSecuritySolutionAnalyticsModelResource.CreateResourceIdentifier" /> to create an <see cref="IotSecuritySolutionAnalyticsModelResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing an <see cref="IotSecuritySolutionAnalyticsModelResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="IotSecuritySolutionAnalyticsModelResource.CreateResourceIdentifier" /> to create an <see cref="IotSecuritySolutionAnalyticsModelResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="IotSecuritySolutionAnalyticsModelResource" /> object. </returns>
+        /// <returns> Returns a <see cref="IotSecuritySolutionAnalyticsModelResource"/> object. </returns>
         public virtual IotSecuritySolutionAnalyticsModelResource GetIotSecuritySolutionAnalyticsModelResource(ResourceIdentifier id)
         {
             IotSecuritySolutionAnalyticsModelResource.ValidateResourceId(id);
@@ -789,11 +949,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing an <see cref="IotSecurityAggregatedAlertResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="IotSecurityAggregatedAlertResource.CreateResourceIdentifier" /> to create an <see cref="IotSecurityAggregatedAlertResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing an <see cref="IotSecurityAggregatedAlertResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="IotSecurityAggregatedAlertResource.CreateResourceIdentifier" /> to create an <see cref="IotSecurityAggregatedAlertResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="IotSecurityAggregatedAlertResource" /> object. </returns>
+        /// <returns> Returns a <see cref="IotSecurityAggregatedAlertResource"/> object. </returns>
         public virtual IotSecurityAggregatedAlertResource GetIotSecurityAggregatedAlertResource(ResourceIdentifier id)
         {
             IotSecurityAggregatedAlertResource.ValidateResourceId(id);
@@ -801,11 +961,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing an <see cref="IotSecurityAggregatedRecommendationResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="IotSecurityAggregatedRecommendationResource.CreateResourceIdentifier" /> to create an <see cref="IotSecurityAggregatedRecommendationResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing an <see cref="IotSecurityAggregatedRecommendationResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="IotSecurityAggregatedRecommendationResource.CreateResourceIdentifier" /> to create an <see cref="IotSecurityAggregatedRecommendationResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="IotSecurityAggregatedRecommendationResource" /> object. </returns>
+        /// <returns> Returns a <see cref="IotSecurityAggregatedRecommendationResource"/> object. </returns>
         public virtual IotSecurityAggregatedRecommendationResource GetIotSecurityAggregatedRecommendationResource(ResourceIdentifier id)
         {
             IotSecurityAggregatedRecommendationResource.ValidateResourceId(id);
@@ -813,11 +973,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityCenterLocationResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityCenterLocationResource.CreateResourceIdentifier" /> to create a <see cref="SecurityCenterLocationResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityCenterLocationResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityCenterLocationResource.CreateResourceIdentifier" /> to create a <see cref="SecurityCenterLocationResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityCenterLocationResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityCenterLocationResource"/> object. </returns>
         public virtual SecurityCenterLocationResource GetSecurityCenterLocationResource(ResourceIdentifier id)
         {
             SecurityCenterLocationResource.ValidateResourceId(id);
@@ -825,11 +985,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SubscriptionSecurityTaskResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SubscriptionSecurityTaskResource.CreateResourceIdentifier" /> to create a <see cref="SubscriptionSecurityTaskResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SubscriptionSecurityTaskResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SubscriptionSecurityTaskResource.CreateResourceIdentifier" /> to create a <see cref="SubscriptionSecurityTaskResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SubscriptionSecurityTaskResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SubscriptionSecurityTaskResource"/> object. </returns>
         public virtual SubscriptionSecurityTaskResource GetSubscriptionSecurityTaskResource(ResourceIdentifier id)
         {
             SubscriptionSecurityTaskResource.ValidateResourceId(id);
@@ -837,11 +997,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="ResourceGroupSecurityTaskResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="ResourceGroupSecurityTaskResource.CreateResourceIdentifier" /> to create a <see cref="ResourceGroupSecurityTaskResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="ResourceGroupSecurityTaskResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="ResourceGroupSecurityTaskResource.CreateResourceIdentifier" /> to create a <see cref="ResourceGroupSecurityTaskResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="ResourceGroupSecurityTaskResource" /> object. </returns>
+        /// <returns> Returns a <see cref="ResourceGroupSecurityTaskResource"/> object. </returns>
         public virtual ResourceGroupSecurityTaskResource GetResourceGroupSecurityTaskResource(ResourceIdentifier id)
         {
             ResourceGroupSecurityTaskResource.ValidateResourceId(id);
@@ -849,11 +1009,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing an <see cref="AutoProvisioningSettingResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="AutoProvisioningSettingResource.CreateResourceIdentifier" /> to create an <see cref="AutoProvisioningSettingResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing an <see cref="AutoProvisioningSettingResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="AutoProvisioningSettingResource.CreateResourceIdentifier" /> to create an <see cref="AutoProvisioningSettingResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="AutoProvisioningSettingResource" /> object. </returns>
+        /// <returns> Returns a <see cref="AutoProvisioningSettingResource"/> object. </returns>
         public virtual AutoProvisioningSettingResource GetAutoProvisioningSettingResource(ResourceIdentifier id)
         {
             AutoProvisioningSettingResource.ValidateResourceId(id);
@@ -861,11 +1021,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityComplianceResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityComplianceResource.CreateResourceIdentifier" /> to create a <see cref="SecurityComplianceResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityComplianceResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityComplianceResource.CreateResourceIdentifier" /> to create a <see cref="SecurityComplianceResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityComplianceResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityComplianceResource"/> object. </returns>
         public virtual SecurityComplianceResource GetSecurityComplianceResource(ResourceIdentifier id)
         {
             SecurityComplianceResource.ValidateResourceId(id);
@@ -873,11 +1033,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityContactResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityContactResource.CreateResourceIdentifier" /> to create a <see cref="SecurityContactResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityContactResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityContactResource.CreateResourceIdentifier" /> to create a <see cref="SecurityContactResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityContactResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityContactResource"/> object. </returns>
         public virtual SecurityContactResource GetSecurityContactResource(ResourceIdentifier id)
         {
             SecurityContactResource.ValidateResourceId(id);
@@ -885,11 +1045,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityWorkspaceSettingResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityWorkspaceSettingResource.CreateResourceIdentifier" /> to create a <see cref="SecurityWorkspaceSettingResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityWorkspaceSettingResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityWorkspaceSettingResource.CreateResourceIdentifier" /> to create a <see cref="SecurityWorkspaceSettingResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityWorkspaceSettingResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityWorkspaceSettingResource"/> object. </returns>
         public virtual SecurityWorkspaceSettingResource GetSecurityWorkspaceSettingResource(ResourceIdentifier id)
         {
             SecurityWorkspaceSettingResource.ValidateResourceId(id);
@@ -897,11 +1057,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="RegulatoryComplianceStandardResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="RegulatoryComplianceStandardResource.CreateResourceIdentifier" /> to create a <see cref="RegulatoryComplianceStandardResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="RegulatoryComplianceStandardResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="RegulatoryComplianceStandardResource.CreateResourceIdentifier" /> to create a <see cref="RegulatoryComplianceStandardResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="RegulatoryComplianceStandardResource" /> object. </returns>
+        /// <returns> Returns a <see cref="RegulatoryComplianceStandardResource"/> object. </returns>
         public virtual RegulatoryComplianceStandardResource GetRegulatoryComplianceStandardResource(ResourceIdentifier id)
         {
             RegulatoryComplianceStandardResource.ValidateResourceId(id);
@@ -909,11 +1069,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="RegulatoryComplianceControlResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="RegulatoryComplianceControlResource.CreateResourceIdentifier" /> to create a <see cref="RegulatoryComplianceControlResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="RegulatoryComplianceControlResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="RegulatoryComplianceControlResource.CreateResourceIdentifier" /> to create a <see cref="RegulatoryComplianceControlResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="RegulatoryComplianceControlResource" /> object. </returns>
+        /// <returns> Returns a <see cref="RegulatoryComplianceControlResource"/> object. </returns>
         public virtual RegulatoryComplianceControlResource GetRegulatoryComplianceControlResource(ResourceIdentifier id)
         {
             RegulatoryComplianceControlResource.ValidateResourceId(id);
@@ -921,11 +1081,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="RegulatoryComplianceAssessmentResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="RegulatoryComplianceAssessmentResource.CreateResourceIdentifier" /> to create a <see cref="RegulatoryComplianceAssessmentResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="RegulatoryComplianceAssessmentResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="RegulatoryComplianceAssessmentResource.CreateResourceIdentifier" /> to create a <see cref="RegulatoryComplianceAssessmentResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="RegulatoryComplianceAssessmentResource" /> object. </returns>
+        /// <returns> Returns a <see cref="RegulatoryComplianceAssessmentResource"/> object. </returns>
         public virtual RegulatoryComplianceAssessmentResource GetRegulatoryComplianceAssessmentResource(ResourceIdentifier id)
         {
             RegulatoryComplianceAssessmentResource.ValidateResourceId(id);
@@ -933,11 +1093,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecuritySubAssessmentResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecuritySubAssessmentResource.CreateResourceIdentifier" /> to create a <see cref="SecuritySubAssessmentResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecuritySubAssessmentResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecuritySubAssessmentResource.CreateResourceIdentifier" /> to create a <see cref="SecuritySubAssessmentResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecuritySubAssessmentResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecuritySubAssessmentResource"/> object. </returns>
         public virtual SecuritySubAssessmentResource GetSecuritySubAssessmentResource(ResourceIdentifier id)
         {
             SecuritySubAssessmentResource.ValidateResourceId(id);
@@ -945,11 +1105,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityAutomationResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityAutomationResource.CreateResourceIdentifier" /> to create a <see cref="SecurityAutomationResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityAutomationResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityAutomationResource.CreateResourceIdentifier" /> to create a <see cref="SecurityAutomationResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityAutomationResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityAutomationResource"/> object. </returns>
         public virtual SecurityAutomationResource GetSecurityAutomationResource(ResourceIdentifier id)
         {
             SecurityAutomationResource.ValidateResourceId(id);
@@ -957,11 +1117,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityAlertsSuppressionRuleResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityAlertsSuppressionRuleResource.CreateResourceIdentifier" /> to create a <see cref="SecurityAlertsSuppressionRuleResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityAlertsSuppressionRuleResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityAlertsSuppressionRuleResource.CreateResourceIdentifier" /> to create a <see cref="SecurityAlertsSuppressionRuleResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityAlertsSuppressionRuleResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityAlertsSuppressionRuleResource"/> object. </returns>
         public virtual SecurityAlertsSuppressionRuleResource GetSecurityAlertsSuppressionRuleResource(ResourceIdentifier id)
         {
             SecurityAlertsSuppressionRuleResource.ValidateResourceId(id);
@@ -969,11 +1129,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="ServerVulnerabilityAssessmentResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="ServerVulnerabilityAssessmentResource.CreateResourceIdentifier" /> to create a <see cref="ServerVulnerabilityAssessmentResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="ServerVulnerabilityAssessmentResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="ServerVulnerabilityAssessmentResource.CreateResourceIdentifier" /> to create a <see cref="ServerVulnerabilityAssessmentResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="ServerVulnerabilityAssessmentResource" /> object. </returns>
+        /// <returns> Returns a <see cref="ServerVulnerabilityAssessmentResource"/> object. </returns>
         public virtual ServerVulnerabilityAssessmentResource GetServerVulnerabilityAssessmentResource(ResourceIdentifier id)
         {
             ServerVulnerabilityAssessmentResource.ValidateResourceId(id);
@@ -981,11 +1141,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="TenantAssessmentMetadataResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="TenantAssessmentMetadataResource.CreateResourceIdentifier" /> to create a <see cref="TenantAssessmentMetadataResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="TenantAssessmentMetadataResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="TenantAssessmentMetadataResource.CreateResourceIdentifier" /> to create a <see cref="TenantAssessmentMetadataResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="TenantAssessmentMetadataResource" /> object. </returns>
+        /// <returns> Returns a <see cref="TenantAssessmentMetadataResource"/> object. </returns>
         public virtual TenantAssessmentMetadataResource GetTenantAssessmentMetadataResource(ResourceIdentifier id)
         {
             TenantAssessmentMetadataResource.ValidateResourceId(id);
@@ -993,11 +1153,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SubscriptionAssessmentMetadataResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SubscriptionAssessmentMetadataResource.CreateResourceIdentifier" /> to create a <see cref="SubscriptionAssessmentMetadataResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SubscriptionAssessmentMetadataResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SubscriptionAssessmentMetadataResource.CreateResourceIdentifier" /> to create a <see cref="SubscriptionAssessmentMetadataResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SubscriptionAssessmentMetadataResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SubscriptionAssessmentMetadataResource"/> object. </returns>
         public virtual SubscriptionAssessmentMetadataResource GetSubscriptionAssessmentMetadataResource(ResourceIdentifier id)
         {
             SubscriptionAssessmentMetadataResource.ValidateResourceId(id);
@@ -1005,11 +1165,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityAssessmentResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityAssessmentResource.CreateResourceIdentifier" /> to create a <see cref="SecurityAssessmentResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityAssessmentResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityAssessmentResource.CreateResourceIdentifier" /> to create a <see cref="SecurityAssessmentResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityAssessmentResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityAssessmentResource"/> object. </returns>
         public virtual SecurityAssessmentResource GetSecurityAssessmentResource(ResourceIdentifier id)
         {
             SecurityAssessmentResource.ValidateResourceId(id);
@@ -1017,11 +1177,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing an <see cref="AdaptiveApplicationControlGroupResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="AdaptiveApplicationControlGroupResource.CreateResourceIdentifier" /> to create an <see cref="AdaptiveApplicationControlGroupResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing an <see cref="AdaptiveApplicationControlGroupResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="AdaptiveApplicationControlGroupResource.CreateResourceIdentifier" /> to create an <see cref="AdaptiveApplicationControlGroupResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="AdaptiveApplicationControlGroupResource" /> object. </returns>
+        /// <returns> Returns a <see cref="AdaptiveApplicationControlGroupResource"/> object. </returns>
         public virtual AdaptiveApplicationControlGroupResource GetAdaptiveApplicationControlGroupResource(ResourceIdentifier id)
         {
             AdaptiveApplicationControlGroupResource.ValidateResourceId(id);
@@ -1029,11 +1189,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing an <see cref="AdaptiveNetworkHardeningResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="AdaptiveNetworkHardeningResource.CreateResourceIdentifier" /> to create an <see cref="AdaptiveNetworkHardeningResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing an <see cref="AdaptiveNetworkHardeningResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="AdaptiveNetworkHardeningResource.CreateResourceIdentifier" /> to create an <see cref="AdaptiveNetworkHardeningResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="AdaptiveNetworkHardeningResource" /> object. </returns>
+        /// <returns> Returns a <see cref="AdaptiveNetworkHardeningResource"/> object. </returns>
         public virtual AdaptiveNetworkHardeningResource GetAdaptiveNetworkHardeningResource(ResourceIdentifier id)
         {
             AdaptiveNetworkHardeningResource.ValidateResourceId(id);
@@ -1041,11 +1201,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="JitNetworkAccessPolicyResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="JitNetworkAccessPolicyResource.CreateResourceIdentifier" /> to create a <see cref="JitNetworkAccessPolicyResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="JitNetworkAccessPolicyResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="JitNetworkAccessPolicyResource.CreateResourceIdentifier" /> to create a <see cref="JitNetworkAccessPolicyResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="JitNetworkAccessPolicyResource" /> object. </returns>
+        /// <returns> Returns a <see cref="JitNetworkAccessPolicyResource"/> object. </returns>
         public virtual JitNetworkAccessPolicyResource GetJitNetworkAccessPolicyResource(ResourceIdentifier id)
         {
             JitNetworkAccessPolicyResource.ValidateResourceId(id);
@@ -1053,11 +1213,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecureScoreResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecureScoreResource.CreateResourceIdentifier" /> to create a <see cref="SecureScoreResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecureScoreResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecureScoreResource.CreateResourceIdentifier" /> to create a <see cref="SecureScoreResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecureScoreResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecureScoreResource"/> object. </returns>
         public virtual SecureScoreResource GetSecureScoreResource(ResourceIdentifier id)
         {
             SecureScoreResource.ValidateResourceId(id);
@@ -1065,11 +1225,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityCloudConnectorResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityCloudConnectorResource.CreateResourceIdentifier" /> to create a <see cref="SecurityCloudConnectorResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityCloudConnectorResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityCloudConnectorResource.CreateResourceIdentifier" /> to create a <see cref="SecurityCloudConnectorResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityCloudConnectorResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityCloudConnectorResource"/> object. </returns>
         public virtual SecurityCloudConnectorResource GetSecurityCloudConnectorResource(ResourceIdentifier id)
         {
             SecurityCloudConnectorResource.ValidateResourceId(id);
@@ -1077,11 +1237,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SubscriptionSecurityAlertResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SubscriptionSecurityAlertResource.CreateResourceIdentifier" /> to create a <see cref="SubscriptionSecurityAlertResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SubscriptionSecurityAlertResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SubscriptionSecurityAlertResource.CreateResourceIdentifier" /> to create a <see cref="SubscriptionSecurityAlertResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SubscriptionSecurityAlertResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SubscriptionSecurityAlertResource"/> object. </returns>
         public virtual SubscriptionSecurityAlertResource GetSubscriptionSecurityAlertResource(ResourceIdentifier id)
         {
             SubscriptionSecurityAlertResource.ValidateResourceId(id);
@@ -1089,11 +1249,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="ResourceGroupSecurityAlertResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="ResourceGroupSecurityAlertResource.CreateResourceIdentifier" /> to create a <see cref="ResourceGroupSecurityAlertResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="ResourceGroupSecurityAlertResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="ResourceGroupSecurityAlertResource.CreateResourceIdentifier" /> to create a <see cref="ResourceGroupSecurityAlertResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="ResourceGroupSecurityAlertResource" /> object. </returns>
+        /// <returns> Returns a <see cref="ResourceGroupSecurityAlertResource"/> object. </returns>
         public virtual ResourceGroupSecurityAlertResource GetResourceGroupSecurityAlertResource(ResourceIdentifier id)
         {
             ResourceGroupSecurityAlertResource.ValidateResourceId(id);
@@ -1101,11 +1261,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecuritySettingResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecuritySettingResource.CreateResourceIdentifier" /> to create a <see cref="SecuritySettingResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecuritySettingResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecuritySettingResource.CreateResourceIdentifier" /> to create a <see cref="SecuritySettingResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecuritySettingResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecuritySettingResource"/> object. </returns>
         public virtual SecuritySettingResource GetSecuritySettingResource(ResourceIdentifier id)
         {
             SecuritySettingResource.ValidateResourceId(id);
@@ -1113,11 +1273,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing an <see cref="IngestionSettingResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="IngestionSettingResource.CreateResourceIdentifier" /> to create an <see cref="IngestionSettingResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing an <see cref="IngestionSettingResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="IngestionSettingResource.CreateResourceIdentifier" /> to create an <see cref="IngestionSettingResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="IngestionSettingResource" /> object. </returns>
+        /// <returns> Returns a <see cref="IngestionSettingResource"/> object. </returns>
         public virtual IngestionSettingResource GetIngestionSettingResource(ResourceIdentifier id)
         {
             IngestionSettingResource.ValidateResourceId(id);
@@ -1125,11 +1285,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SoftwareInventoryResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SoftwareInventoryResource.CreateResourceIdentifier" /> to create a <see cref="SoftwareInventoryResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SoftwareInventoryResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SoftwareInventoryResource.CreateResourceIdentifier" /> to create a <see cref="SoftwareInventoryResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SoftwareInventoryResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SoftwareInventoryResource"/> object. </returns>
         public virtual SoftwareInventoryResource GetSoftwareInventoryResource(ResourceIdentifier id)
         {
             SoftwareInventoryResource.ValidateResourceId(id);
@@ -1137,11 +1297,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityConnectorResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityConnectorResource.CreateResourceIdentifier" /> to create a <see cref="SecurityConnectorResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityConnectorResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityConnectorResource.CreateResourceIdentifier" /> to create a <see cref="SecurityConnectorResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityConnectorResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityConnectorResource"/> object. </returns>
         public virtual SecurityConnectorResource GetSecurityConnectorResource(ResourceIdentifier id)
         {
             SecurityConnectorResource.ValidateResourceId(id);
@@ -1149,11 +1309,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="GovernanceRuleResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="GovernanceRuleResource.CreateResourceIdentifier" /> to create a <see cref="GovernanceRuleResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="GovernanceRuleResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="GovernanceRuleResource.CreateResourceIdentifier" /> to create a <see cref="GovernanceRuleResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="GovernanceRuleResource" /> object. </returns>
+        /// <returns> Returns a <see cref="GovernanceRuleResource"/> object. </returns>
         public virtual GovernanceRuleResource GetGovernanceRuleResource(ResourceIdentifier id)
         {
             GovernanceRuleResource.ValidateResourceId(id);
@@ -1161,11 +1321,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="GovernanceAssignmentResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="GovernanceAssignmentResource.CreateResourceIdentifier" /> to create a <see cref="GovernanceAssignmentResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="GovernanceAssignmentResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="GovernanceAssignmentResource.CreateResourceIdentifier" /> to create a <see cref="GovernanceAssignmentResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="GovernanceAssignmentResource" /> object. </returns>
+        /// <returns> Returns a <see cref="GovernanceAssignmentResource"/> object. </returns>
         public virtual GovernanceAssignmentResource GetGovernanceAssignmentResource(ResourceIdentifier id)
         {
             GovernanceAssignmentResource.ValidateResourceId(id);
@@ -1173,11 +1333,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SubscriptionSecurityApplicationResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SubscriptionSecurityApplicationResource.CreateResourceIdentifier" /> to create a <see cref="SubscriptionSecurityApplicationResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SubscriptionSecurityApplicationResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SubscriptionSecurityApplicationResource.CreateResourceIdentifier" /> to create a <see cref="SubscriptionSecurityApplicationResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SubscriptionSecurityApplicationResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SubscriptionSecurityApplicationResource"/> object. </returns>
         public virtual SubscriptionSecurityApplicationResource GetSubscriptionSecurityApplicationResource(ResourceIdentifier id)
         {
             SubscriptionSecurityApplicationResource.ValidateResourceId(id);
@@ -1185,11 +1345,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SecurityConnectorApplicationResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SecurityConnectorApplicationResource.CreateResourceIdentifier" /> to create a <see cref="SecurityConnectorApplicationResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SecurityConnectorApplicationResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SecurityConnectorApplicationResource.CreateResourceIdentifier" /> to create a <see cref="SecurityConnectorApplicationResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SecurityConnectorApplicationResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SecurityConnectorApplicationResource"/> object. </returns>
         public virtual SecurityConnectorApplicationResource GetSecurityConnectorApplicationResource(ResourceIdentifier id)
         {
             SecurityConnectorApplicationResource.ValidateResourceId(id);
@@ -1197,11 +1357,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SqlVulnerabilityAssessmentScanResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SqlVulnerabilityAssessmentScanResource.CreateResourceIdentifier" /> to create a <see cref="SqlVulnerabilityAssessmentScanResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SqlVulnerabilityAssessmentScanResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SqlVulnerabilityAssessmentScanResource.CreateResourceIdentifier" /> to create a <see cref="SqlVulnerabilityAssessmentScanResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SqlVulnerabilityAssessmentScanResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SqlVulnerabilityAssessmentScanResource"/> object. </returns>
         public virtual SqlVulnerabilityAssessmentScanResource GetSqlVulnerabilityAssessmentScanResource(ResourceIdentifier id)
         {
             SqlVulnerabilityAssessmentScanResource.ValidateResourceId(id);
@@ -1209,11 +1369,11 @@ namespace Azure.ResourceManager.SecurityCenter.Mocking
         }
 
         /// <summary>
-        /// Gets an object representing a <see cref="SqlVulnerabilityAssessmentBaselineRuleResource" /> along with the instance operations that can be performed on it but with no data.
-        /// You can use <see cref="SqlVulnerabilityAssessmentBaselineRuleResource.CreateResourceIdentifier" /> to create a <see cref="SqlVulnerabilityAssessmentBaselineRuleResource" /> <see cref="ResourceIdentifier" /> from its components.
+        /// Gets an object representing a <see cref="SqlVulnerabilityAssessmentBaselineRuleResource"/> along with the instance operations that can be performed on it but with no data.
+        /// You can use <see cref="SqlVulnerabilityAssessmentBaselineRuleResource.CreateResourceIdentifier" /> to create a <see cref="SqlVulnerabilityAssessmentBaselineRuleResource"/> <see cref="ResourceIdentifier"/> from its components.
         /// </summary>
         /// <param name="id"> The resource ID of the resource to get. </param>
-        /// <returns> Returns a <see cref="SqlVulnerabilityAssessmentBaselineRuleResource" /> object. </returns>
+        /// <returns> Returns a <see cref="SqlVulnerabilityAssessmentBaselineRuleResource"/> object. </returns>
         public virtual SqlVulnerabilityAssessmentBaselineRuleResource GetSqlVulnerabilityAssessmentBaselineRuleResource(ResourceIdentifier id)
         {
             SqlVulnerabilityAssessmentBaselineRuleResource.ValidateResourceId(id);

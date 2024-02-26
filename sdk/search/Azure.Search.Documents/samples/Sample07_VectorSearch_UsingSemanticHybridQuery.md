@@ -13,7 +13,7 @@ string vectorSearchProfileName = "my-vector-profile";
 string vectorSearchHnswConfig = "my-hsnw-vector-config";
 int modelDimensions = 1536;
 
-string indexName = "Hotel";
+string indexName = "hotel";
 SearchIndex searchIndex = new(indexName)
 {
     Fields =
@@ -173,6 +173,7 @@ SearchResults<Hotel> response = await searchClient.SearchAsync<Hotel>(
              QueryCaption = new(QueryCaptionType.Extractive),
              QueryAnswer = new(QueryAnswerType.Extractive)
          },
+         QueryLanguage = QueryLanguage.EnUs,
          QueryType = SearchQueryType.Semantic,
      });
 

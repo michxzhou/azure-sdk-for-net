@@ -22,9 +22,9 @@ using Azure.ResourceManager.Resources;
 namespace Azure.ResourceManager.ManagementGroups
 {
     /// <summary>
-    /// A class representing a collection of <see cref="ManagementGroupResource" /> and their operations.
-    /// Each <see cref="ManagementGroupResource" /> in the collection will belong to the same instance of <see cref="TenantResource" />.
-    /// To get a <see cref="ManagementGroupCollection" /> instance call the GetManagementGroups method from an instance of <see cref="TenantResource" />.
+    /// A class representing a collection of <see cref="ManagementGroupResource"/> and their operations.
+    /// Each <see cref="ManagementGroupResource"/> in the collection will belong to the same instance of <see cref="TenantResource"/>.
+    /// To get a <see cref="ManagementGroupCollection"/> instance call the GetManagementGroups method from an instance of <see cref="TenantResource"/>.
     /// </summary>
     public partial class ManagementGroupCollection : ArmCollection, IEnumerable<ManagementGroupResource>, IAsyncEnumerable<ManagementGroupResource>
     {
@@ -67,6 +67,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <item>
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_CreateOrUpdate</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -112,6 +120,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_CreateOrUpdate</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="waitUntil"> <see cref="WaitUntil.Completed"/> if the method should wait to return until the long-running operation has completed on the service; <see cref="WaitUntil.Started"/> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
@@ -155,6 +171,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="groupId"> Management Group ID. </param>
@@ -196,6 +220,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <item>
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_Get</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -239,6 +271,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_List</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="cacheControl"> Indicates whether the request should utilize any caches. Populate the header with 'no-cache' value to bypass existing caches. </param>
@@ -248,7 +288,7 @@ namespace Azure.ResourceManager.ManagementGroups
         ///
         /// </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
-        /// <returns> An async collection of <see cref="ManagementGroupResource" /> that may take multiple service requests to iterate over. </returns>
+        /// <returns> An async collection of <see cref="ManagementGroupResource"/> that may take multiple service requests to iterate over. </returns>
         public virtual AsyncPageable<ManagementGroupResource> GetAllAsync(string cacheControl = null, string skiptoken = null, CancellationToken cancellationToken = default)
         {
             HttpMessage FirstPageRequest(int? pageSizeHint) => _managementGroupRestClient.CreateListRequest(cacheControl, skiptoken);
@@ -268,6 +308,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_List</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="cacheControl"> Indicates whether the request should utilize any caches. Populate the header with 'no-cache' value to bypass existing caches. </param>
@@ -277,7 +325,7 @@ namespace Azure.ResourceManager.ManagementGroups
         ///
         /// </param>
         /// <param name="cancellationToken"> The cancellation token to use. </param>
-        /// <returns> A collection of <see cref="ManagementGroupResource" /> that may take multiple service requests to iterate over. </returns>
+        /// <returns> A collection of <see cref="ManagementGroupResource"/> that may take multiple service requests to iterate over. </returns>
         public virtual Pageable<ManagementGroupResource> GetAll(string cacheControl = null, string skiptoken = null, CancellationToken cancellationToken = default)
         {
             HttpMessage FirstPageRequest(int? pageSizeHint) => _managementGroupRestClient.CreateListRequest(cacheControl, skiptoken);
@@ -295,6 +343,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <item>
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_CheckNameAvailability</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -330,6 +386,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_CheckNameAvailability</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="content"> Management group name availability check parameters. </param>
@@ -363,6 +427,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <item>
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_Get</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -403,6 +475,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_Get</description>
         /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
+        /// </item>
         /// </list>
         /// </summary>
         /// <param name="groupId"> Management Group ID. </param>
@@ -441,6 +521,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <item>
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_Get</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
         /// </item>
         /// </list>
         /// </summary>
@@ -482,6 +570,14 @@ namespace Azure.ResourceManager.ManagementGroups
         /// <item>
         /// <term>Operation Id</term>
         /// <description>ManagementGroups_Get</description>
+        /// </item>
+        /// <item>
+        /// <term>Default Api Version</term>
+        /// <description>2021-04-01</description>
+        /// </item>
+        /// <item>
+        /// <term>Resource</term>
+        /// <description><see cref="ManagementGroupResource"/></description>
         /// </item>
         /// </list>
         /// </summary>

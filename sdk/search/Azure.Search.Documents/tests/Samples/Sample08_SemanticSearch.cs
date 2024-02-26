@@ -12,6 +12,7 @@ using Azure.Core.TestFramework;
 
 namespace Azure.Search.Documents.Tests.Samples
 {
+    [ClientTestFixture(SearchClientOptions.ServiceVersion.V2023_10_01_Preview), ServiceVersion(Min = SearchClientOptions.ServiceVersion.V2023_10_01_Preview)]
     public partial class SemanticSearch : SearchTestBase
     {
         public SemanticSearch(bool async, SearchClientOptions.ServiceVersion serviceVersion)
@@ -44,6 +45,7 @@ namespace Azure.Search.Documents.Tests.Samples
                             QueryCaption = new(QueryCaptionType.Extractive),
                             QueryAnswer = new(QueryAnswerType.Extractive)
                         },
+                        QueryLanguage = QueryLanguage.EnUs,
                         QueryType = SearchQueryType.Semantic
                     });
 
@@ -89,7 +91,7 @@ namespace Azure.Search.Documents.Tests.Samples
         private async Task<SearchIndexClient> CreateIndex(SearchResources resources, string name)
         {
             #region Snippet:Azure_Search_Documents_Tests_Samples_Sample08_Semantic_Search_Index
-            string indexName = "Hotel";
+            string indexName = "hotel";
 #if !SNIPPET
             indexName = name;
 #endif
